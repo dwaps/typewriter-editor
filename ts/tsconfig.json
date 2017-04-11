@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "amd", 
+        "outDir": "../built/js/", 
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "target": "es5"
+    },
+    "files": [
+        "app.ts",
+        "config.ts"
+    ],
+    "exclude": [
+        "../built",
+        "../node_modules"
+    ]
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Cut');
+
+$fullSize: 100%;
+
+body
+{
+	width: 100%;
+}
+
+.style-commun
+{
+	position: absolute;
+	top: 0; bottom: $fullSize/2;
+	left: 0; right: 0;
+	width: $fullSize;
+	font:
+	{
+		size: 1.5em;
+		weight: bold;
+		family: 'Nova Cut', cursive;
+	}
+	text-shadow: 1px 1px 1px gray;
+	letter-spacing: 1px;
+	color: darken(blue, 30%);
+}
+
+// EDITEUR
+#editeur
+{
+	@extend .style-commun;
+}
+
+// LECTEUR
+#lecteur
+{
+	@extend .style-commun;
+	top: $fullSize/2;
+	height: $fullSize/2;
+	background: black;
+	color: white;
+}
+
+
+// GRANDS ECRANS
+@media screen and (min-width:720px)
+{
+	.style-commun
+	{
+		bottom: 0;
+		right: $fullSize/2;
+		width: $fullSize/2;
+	}
+	#lecteur
+	{
+		top: 0; left: $fullSize/2;
+		width: $fullSize/2;
+		height: $fullSize;
+	}
+}

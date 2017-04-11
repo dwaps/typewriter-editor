@@ -1,0 +1,42 @@
+{
+  "name": "typewriter-editor",
+  "version": "0.1.0",
+  "description": "Simple éditeur avec effet \"machine à écrire\" en sortie (sur le lecteur).",
+  "main": "../built/js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwaps/typewriter-editor.git"
+  },
+  "keywords": [
+    "DWAPS",
+    "DWAPS",
+    "Formation",
+    "Michael",
+    "Cornillon",
+    "éditeur",
+    "editor",
+    "typewriter-editor",
+    "typewriter",
+    "editor"
+  ],
+  "authors": [
+    "Michael Cornillon <contact@dwaps.fr>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwaps/typewriter-editor/issues"
+  },
+  "homepage": "https://github.com/dwaps/typewriter-editor#readme",
+  "devDependencies": {
+    "@types/jquery": "^2.0.41",
+    "@types/requirejs": "^2.1.29",
+    "jquery": "^3.2.1",
+    "requirejs": "^2.3.3"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
